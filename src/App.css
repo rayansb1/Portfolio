@@ -1,0 +1,8 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #5e8ebf, #4a4a4a); /* Initial gradient */
+}

@@ -1,0 +1,70 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 80vh; /* Minimum full viewport height */
+    padding: 20px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.big-circle {
+    width: 600px; /* Adjust size as needed */
+    height: 600px; /* Adjust size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0; /* Prevent the circle from shrinking */
+    margin-right: 20px; /* Add some space between the circle and content */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+    margin-top: 20px; /* Adjusted top margin for more space */
+    box-shadow: 1px 1px 20px #4a4a4a;
+}
+
+.big-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    margin: 0 auto; /* Center align on larger screens */
+    padding: 20px; /* Add padding for better readability */
+}
+
+p {
+    font-size: 24px;
+    color: #e5e5e5;
+    line-height: 1.5;
+    margin-bottom: 15px; /* Example: Space between paragraphs */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        min-height: 100vh; /* Increase height beyond viewport height */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Align items to the center horizontally */
+    }
+
+    .big-circle {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Auto adjust height */
+        margin-bottom: 20px; /* Add space between the circle and content */
+        margin-top: 230px; /* Keep the same top margin for more space */
+    }
+
+    .content {
+        flex: 1;
+        max-width: 100%; /* Allow content to take full width */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    p {
+        font-size: 16px; /* Decrease font size for smaller screens */
+        margin-bottom: 10px; /* Reduce space between paragraphs */
+    }
+}

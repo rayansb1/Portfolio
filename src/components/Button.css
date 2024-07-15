@@ -1,0 +1,50 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative; /* Relative positioning */
+    bottom: 10px; /* Align at the bottom of the container */
+    left: 50%; /* Move container to the center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .whatsapp {
+    background-color: #25D366; /* WhatsApp color */
+  }
+  
+  .email {
+    background-color: #EA4335; /* Gmail color */
+  }
+  
+  .linkedin {
+    background-color: #0077B5; /* LinkedIn color */
+  }
+  
+  .github {
+    background-color: #333; /* GitHub color */
+  }
+  
+    /* Media query for responsiveness */
+    @media (max-width: 600px) {
+        .buttons-container {
+          flex-wrap: wrap;
+        }
+        
+        button {
+          margin: 5px;
+        }
+      }
