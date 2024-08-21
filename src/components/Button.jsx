@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css'; // Create this CSS file for styling
+import './Button.css'; // Make sure to include styles for the new button
 
 function Buttons() {
   const openWhatsAppChat = () => {
@@ -18,14 +18,19 @@ function Buttons() {
     window.open(`https://github.com/rayansb1`, '_blank');
   };
 
+  const openResume = () => {
+    window.open(`/files/Resume.pdf`, '_blank'); // Adjust the path if needed
+  };
+
   return (
     <div className="buttons-container">
       <button className="whatsapp" onClick={openWhatsAppChat}>WhatsApp</button>
       <button className="email" onClick={openEmailClient}>Email</button>
       <button className="linkedin" onClick={openLinkedIn}>LinkedIn</button>
       <button className="github" onClick={openGitHub}>GitHub</button>
+      <button className="resume" onClick={openResume}>Resume</button>
     </div>
   );
-};
+}
 
 export default Buttons;

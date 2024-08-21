@@ -37,6 +37,11 @@
   .github {
     background-color: #333; /* GitHub color */
   }
+
+  .resume {
+    background-color: #8c2809; /* Choose a color for the PDF button */
+    color: white;
+  }
   
     /* Media query for responsiveness */
     @media (max-width: 600px) {
