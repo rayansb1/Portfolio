@@ -2,7 +2,7 @@ import React from "react";
 import './Card.css';
 import InnovativefoodImageCard from './InnovativefoodImageCard.jpg';
 import AmnoonImageCard from './AmnoonImageCard.jpeg';
-import CalculatorImageCard from './CalculatorImageCard.png';
+import Promonote from './Promonote.png';
 import WeatherImageCard from './WeatherImageCard.png';
 
 function Card() {
@@ -37,10 +37,10 @@ function Card() {
         </div>
       </div>
       <div className="card">
-        <img src={CalculatorImageCard} alt="Image" className="card-image" />
+        <img src={Promonote} alt="Image" className="card-image" />
         <div className="card-content">
-          <h3 className="card-title">Calculator website</h3>
-          <a href="https://calculatorwebsiteapplication.netlify.app" className="card-link">View More</a>
+          <h3 className="card-title">Promonote Application</h3>
+          <a href="https://github.com/rayansb1/Pomonote" className="card-link">View More</a>
         </div>
       </div>
     </div>
