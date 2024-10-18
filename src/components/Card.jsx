@@ -2,7 +2,7 @@ import React from "react";
 import './Card.css';
 import InnovativefoodImageCard from './InnovativefoodImageCard.jpg';
 import AmnoonImageCard from './AmnoonImageCard.jpeg';
-import Promonote from './Promonote.png';
+import Pomonote from './Pomonote.png';
 import WeatherImageCard from './WeatherImageCard.png';
 
 function Card() {
@@ -37,9 +37,9 @@ function Card() {
         </div>
       </div>
       <div className="card">
-        <img src={Promonote} alt="Image" className="card-image" />
+        <img src={Pomonote} alt="Image" className="card-image" />
         <div className="card-content">
-          <h3 className="card-title">Promonote Application</h3>
+          <h3 className="card-title">Pomonote Application</h3>
           <a href="https://github.com/rayansb1/Pomonote" className="card-link">View More</a>
         </div>
       </div>
