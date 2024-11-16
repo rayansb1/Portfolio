@@ -39,7 +39,7 @@ function Card() {
       <div className="card">
         <img src={Pomonote} alt="Image" className="card-image" />
         <div className="card-content">
-          <h3 className="card-title">Pomonote Application</h3>
+          <h3 className="card-title">Pomonote application</h3>
           <a href="https://github.com/rayansb1/Pomonote" className="card-link">View More</a>
         </div>
       </div>
