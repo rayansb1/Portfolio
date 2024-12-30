@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css'; // Make sure to include styles for the new button
+import '../styles/Button.css'; // Make sure to include styles for the new button
 
 function Buttons() {
   const openWhatsAppChat = () => {

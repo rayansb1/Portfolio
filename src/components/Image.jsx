@@ -1,7 +1,6 @@
 import React from "react";
-import './Image.css';
-import myImage from './myImage.jpg';
-
+import '../styles/Image.css';
+import myImage from '../assets/myImage.jpg';
 function Image({ content }) {
   return (
     <div className="container">

@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css';
+import '../styles/Header.css';
 
 function Header({ onButtonClick }) {
   const handleButtonClick = (index) => {
@@ -13,7 +13,6 @@ function Header({ onButtonClick }) {
           <li><button onClick={() => handleButtonClick(0)}>About Rayan</button></li>
           <li><button onClick={() => handleButtonClick(1)}>Experience</button></li>
           <li><button onClick={() => handleButtonClick(2)}>Programming Languages</button></li>
-          <li><button onClick={() => handleButtonClick(3)}>Projects</button></li>
         </ul>
       </nav>
     </header>
